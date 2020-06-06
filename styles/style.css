@@ -1,0 +1,364 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Helvetica, sans-serif;
+}
+
+/*------Top Bar----*/
+.top_head {
+  width: 100%;
+  height: 23px;
+  background-color: black;
+}
+.top_head marquee {
+  color: white;
+}
+/*------Top Bar----*/
+
+/*-----Navigation Bar------*/
+.navigation {
+  width: 100%;
+  height: 85px;
+  background-color: white;
+}
+.logo {
+  float: left;
+  margin: 5px;
+  margin-left: 50px;
+}
+.navigation .logo img {
+  width: 100px;
+}
+.navigation ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.navigation ul li {
+  float: left;
+  width: 180px;
+  height: 80px;
+  background-color: white;
+  border-radius: 3px;
+}
+.navigation ul li:hover {
+  background-color: #fa6600;
+  color: #fa6600;
+}
+.navigation ul li a {
+  text-decoration: none;
+  margin: 0px;
+  line-height: 80px;
+  font-size: 22px;
+  text-align: center;
+  display: block;
+  font-weight: bolder;
+  color: black;
+}
+.navigation ul li a:hover {
+  color: white;
+}
+.navigation ul li ul li {
+  display: none;
+}
+.navigation ul li:hover ul li {
+  display: block;
+}
+.searchbar {
+  float: right;
+  margin: 25px 50px 20px 0px;
+}
+.searchbar input[type="text"] {
+  width: 200px;
+  padding: 5px;
+}
+.searchbar input[type="button"] {
+  border-radius: 2px;
+  border: none;
+  padding: 7px;
+  width: 80px;
+  background-color: black;
+  color: white;
+  font-weight: bolder;
+}
+/*-----Navigation Bar------*/
+
+/*----*/
+
+/*---------------Main Section-------------*/
+.main_section {
+  width: 100%;
+  height: 629px;
+  animation-name: slider;
+  animation-duration: 25s;
+  animation-iteration-count: infinite;
+  background-size: cover;
+}
+@keyframes slider {
+  0% {
+    background-image: url(../images/e1.jpg);
+  }
+  20% {
+    background-image: url(../images/e1.jpg);
+  }
+  40% {
+    background-image: url(../images/e2.jpg);
+  }
+  60% {
+    background-image: url(../images/e3.jpg);
+  }
+  80% {
+    background-image: url(../images/e4.jpg);
+  }
+  100% {
+    background-image: url(../images/e5.jpg);
+  }
+}
+/*-------------div no.1--------*/
+.sec_div1 {
+  background-color: white;
+  position: absolute;
+  top: 450px;
+  left: 150px;
+  height: 100px;
+  width: 380px;
+  border-radius: 5px;
+}
+.sec_div1 h1 {
+  color: Black;
+  margin: 15px;
+}
+.sec_div1 button {
+  background-color: #fa6600;
+  color: white;
+  font-size: 25px;
+  font-weight: bolder;
+  border-radius: 7px;
+  border: none;
+  height: 50px;
+  width: 200px;
+}
+
+/*-------------div no.2---------*/
+.sec_div2 {
+  position: relative;
+  top: 570px;
+  background: #e8e6dc;
+}
+.sec_div2 ul {
+  margin-left: 420px;
+  width: 700px;
+}
+.sec_div2 ul li {
+  display: inline-block;
+  margin: 15px 40px;
+  color: black;
+  font-size: 25px;
+  font-weight: bolder;
+  letter-spacing: -1px;
+}
+.sec_div2 ul li a {
+  text-decoration: none;
+  margin: 0px;
+}
+.sec_div2 ul li:hover {
+  color: #fa6600;
+  font-size: 28px;
+}
+/*------------Main Section-------*/
+
+/*----*/
+
+/*---Main Content---*/
+.main {
+  width: 90%;
+  margin: auto;
+  margin-top: 50px;
+  color: white;
+  overflow: hidden;
+}
+.main button {
+  width: 200px;
+  font-size: 22px;
+  font-weight: bold;
+  padding: 7px;
+  border: none;
+  border-radius: 2px;
+  background-color: #fa6600;
+  color: white;
+  margin: 0px 0px 30px 50px;
+}
+.main h1 {
+  height: 50px;
+  margin: 10px 20px;
+}
+.main p {
+  height: 50px;
+  margin: 2px 10px;
+}
+.main_div1 {
+  width: 49%;
+  float: left;
+  background-color: black;
+}
+.main_div2 {
+  width: 49%;
+  float: right;
+  background-color: black;
+}
+.main_div3 {
+  margin-top: 30px;
+  width: 49%;
+  float: left;
+  background-color: black;
+}
+.main_div4 {
+  margin-top: 30px;
+  width: 49%;
+  float: right;
+  background-color: black;
+}
+.offer_div {
+  background-color: black;
+  width: 100%;
+  height: 80px;
+  overflow: hidden;
+  position: relative;
+  top: 13px;
+}
+.offer_div h1 {
+  float: left;
+  margin-top: 20px;
+}
+.offer_div #input {
+  float: right;
+  width: 260px;
+  margin: 15px 40px;
+}
+/*---Main Content---*/
+
+/*------*/
+
+/*---Footer---*/
+footer {
+  width: 100%;
+  background-color: black;
+  height: 800px;
+  margin-top: 50px;
+  background-image: url(../images/footer-img.jpg);
+  background-size: cover;
+}
+footer #top {
+  background-color: white;
+  color: black;
+  font-weight: bolder;
+  font-size: medium;
+  width: 60px;
+  padding: 7px;
+  border: none;
+  border-radius: 3px;
+  position: relative;
+  top: 40px;
+  float: right;
+  right: 50px;
+}
+footer #newsletter {
+  width: 90%;
+  height: 150px;
+  margin: 0 auto;
+}
+footer #newsletter img {
+  width: 120px;
+  float: left;
+  position: relative;
+  top: 15px;
+  left: 30px;
+}
+#newsletter h3 {
+  color: #fa6600;
+  display: inline;
+  position: relative;
+  top: 30px;
+  left: 200px;
+}
+#newsletter h2 {
+  display: inline;
+  color: white;
+  position: relative;
+  top: 60px;
+  left: 70px;
+  font-size: 33px;
+}
+#newsletter button {
+  width: 250px;
+  font-size: 22px;
+  font-weight: bold;
+  padding: 7px;
+  border: none;
+  border-radius: 2px;
+  background-color: #fa6600;
+  color: white;
+  margin: 0px 0px 30px 50px;
+  position: relative;
+  top: 50px;
+  left: 230px;
+}
+hr {
+  width: 90%;
+  margin: 0 auto;
+}
+#links {
+  width: 90%;
+  margin: 10px auto;
+  height: 350px;
+}
+#links div {
+  display: inline-block;
+  width: 350px;
+}
+#links div h2 {
+  color: white;
+  letter-spacing: -1px;
+  margin: 5px;
+}
+#links div a {
+  display: block;
+  color: white;
+  margin: 15px;
+  text-decoration: none;
+  font-weight: bold;
+}
+#links div a:hover {
+  color: #fa6600;
+  text-decoration: underline;
+}
+#links #about {
+  position: relative;
+  top: 33px;
+  left: 140px;
+}
+#links #mcycle {
+  position: relative;
+  left: 80px;
+}
+#links #support {
+  position: relative;
+  left: 50px;
+}
+#links #experience {
+  position: relative;
+  left: 40px;
+  top: 50px;
+}
+footer #copyright {
+  color: white;
+  width: 60%;
+  margin: 30px auto;
+  text-align: center;
+}
+footer #ahmed {
+  color: white;
+  text-align: center;
+  margin: 10px 0px;
+}
+/*---Footer---*/

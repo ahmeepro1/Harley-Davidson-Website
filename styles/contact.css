@@ -1,0 +1,186 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+/*--Top Head---*/
+#top_head {
+  width: 100%;
+  height: 110px;
+  background-color: black;
+  border: 1px solid black;
+}
+/*-----Navigation Bar------*/
+.navigation {
+  width: 70%;
+  height: 85px;
+  background-color: white;
+  margin: 12.5px auto;
+  border-radius: 10px;
+}
+.logo {
+  float: left;
+  margin: 5px;
+  margin-left: 50px;
+}
+.navigation .logo img {
+  width: 100px;
+}
+.navigation ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.navigation ul li {
+  float: left;
+  width: 180px;
+  height: 80px;
+  background-color: white;
+  border-radius: 3px;
+}
+.navigation ul li:hover {
+  background-color: #fa6600;
+  color: #fa6600;
+}
+.navigation ul li a {
+  text-decoration: none;
+  margin: 0px;
+  line-height: 80px;
+  font-size: 22px;
+  text-align: center;
+  display: block;
+  font-weight: bolder;
+  color: black;
+}
+.navigation ul li a:hover {
+  color: white;
+}
+.navigation ul li ul li {
+  display: none;
+}
+.navigation ul li:hover ul li {
+  display: block;
+}
+
+/*-----Navigation Bar------*/
+
+/*----*/
+#likha {
+  background-image: url(../images/contact_cover.jpg);
+  background-size: cover;
+  width: 100%;
+  height: 320px;
+}
+#likha h1 {
+  color: white;
+  font-size: 80px;
+  position: relative;
+  top: 90px;
+  left: 500px;
+  font-family: "Satisfy", cursive;
+}
+/*--
+Section  no1
+--*/
+.no1 {
+  width: 95%;
+  margin: 0 auto;
+}
+
+.no1 img {
+  width: 70px;
+  margin: 30px;
+}
+.no1 div {
+  width: 30%;
+  display: inline-block;
+  height: 250px;
+  margin: 0 15px;
+}
+.no2 {
+  background-color: black;
+  width: 100%;
+  height: 850px;
+}
+.no2 h2 {
+  color: white;
+  padding: 50px;
+  font-size: 40px;
+}
+.no2 input {
+  display: block;
+  width: 500px;
+  padding: 20px;
+  margin: 20px 0px;
+  border-radius: 3px;
+  border: none;
+  background-color: rgb(199, 199, 199);
+  color: black;
+}
+.no2 input[type="Submit"] {
+  background-color: #fa6600;
+  color: white;
+  font-weight: bolder;
+  font-size: large;
+  width: 280px;
+}
+.no2 input[type="Submit"]:hover {
+  background-color: white;
+  color: black;
+}
+
+.no2 textarea {
+  width: 500px;
+  height: 200px;
+  margin: 20px 0px;
+  padding: 20px;
+  border-radius: 3px;
+  border: none;
+  background-color: rgb(199, 199, 199);
+  color: black;
+}
+.no3 h1 {
+  padding: 30px;
+}
+.no3 img {
+  width: 70px;
+  margin: 30px;
+}
+.no3 img:hover {
+  transform: scale(1.5, 1.5);
+}
+.no4 {
+  width: 100%;
+  background-color: black;
+}
+.no4 h1 {
+  color: white;
+  font-size: 50px;
+  padding: 30px;
+}
+.no4 iframe {
+  width: 90%;
+  margin: 20px;
+}
+footer {
+  width: 100%;
+  height: 100px;
+  background-color: #fa6600;
+}
+footer button {
+  background-color: black;
+  color: white;
+  font-weight: bolder;
+  font-size: large;
+  width: 150px;
+  padding: 10px;
+  border: none;
+  border-radius: 3px;
+  position: relative;
+  top: 30px;
+  left: 1150px;
+}
+footer button:hover {
+  background-color: white;
+  color: black;
+}

@@ -1,0 +1,224 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+/*--Top Head---*/
+header {
+  width: 100%;
+  height: 110px;
+  background-color: black;
+  border: 1px solid black;
+}
+/*-----Navigation Bar------*/
+.navigation {
+  width: 70%;
+  height: 85px;
+  background-color: white;
+  margin: 12.5px auto;
+  border-radius: 10px;
+}
+.logo {
+  float: left;
+  margin: 5px;
+  margin-left: 50px;
+}
+.navigation .logo img {
+  width: 100px;
+}
+.navigation ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.navigation ul li {
+  float: left;
+  width: 180px;
+  height: 80px;
+  background-color: white;
+  border-radius: 3px;
+}
+.navigation ul li:hover {
+  background-color: #fa6600;
+  color: #fa6600;
+}
+.navigation ul li a {
+  text-decoration: none;
+  margin: 0px;
+  line-height: 80px;
+  font-size: 22px;
+  text-align: center;
+  display: block;
+  font-weight: bolder;
+  color: black;
+}
+.navigation ul li a:hover {
+  color: white;
+}
+.navigation ul li ul li {
+  display: none;
+}
+.navigation ul li:hover ul li {
+  display: block;
+}
+
+/*-----Navigation Bar------*/
+
+/*----*/
+/*----
+Heading Section
+-----*/
+.main_section {
+  width: 100%;
+  height: 300px;
+  background-image: url(../images/about-cover2.jpg);
+
+  background-size: cover;
+}
+.main_section h1 {
+  position: relative;
+  color: white;
+  font-size: 80px;
+  top: 90px;
+  left: 560px;
+  font-family: "Satisfy", cursive;
+}
+
+/*--
+---------Main Section---------
+--*/
+.main_content {
+  width: 100%;
+  background-color: #bebdb5;
+}
+.vision {
+  width: 100%;
+
+  overflow: hidden;
+  height: 500px;
+}
+#vis {
+  background-color: black;
+  width: 600px;
+  float: left;
+  border-radius: 6px;
+  color: white;
+  position: relative;
+  top: 200px;
+  left: 100px;
+}
+#vis h1 {
+  margin: 30px;
+}
+#vis p {
+  margin: 20px;
+}
+#vis_img {
+  width: 600px;
+  float: right;
+
+  position: relative;
+  top: 50px;
+  right: 100px;
+}
+#vis_img img {
+  width: 600px;
+  border-radius: 10px;
+}
+
+/*----*/
+.mission {
+  width: 100%;
+
+  overflow: hidden;
+  height: 500px;
+}
+#mis_img {
+  width: 600px;
+  float: left;
+
+  position: relative;
+  top: 50px;
+  left: 100px;
+}
+#mis_img img {
+  width: 600px;
+  border-radius: 10px;
+}
+#mis {
+  background-color: white;
+  width: 600px;
+  float: right;
+  border-radius: 6px;
+  color: black;
+  position: relative;
+  top: 200px;
+  right: 100px;
+}
+#mis h1 {
+  margin: 30px;
+}
+#mis p {
+  margin: 20px;
+}
+
+/*----*/
+
+.approach {
+  width: 100%;
+
+  overflow: hidden;
+  height: 500px;
+}
+#app_img {
+  width: 600px;
+  float: right;
+
+  position: relative;
+  top: 50px;
+  right: 100px;
+}
+#app_img img {
+  width: 600px;
+
+  border-radius: 10px;
+}
+#app {
+  background-color: black;
+  width: 600px;
+  float: left;
+  border-radius: 6px;
+  color: white;
+  position: relative;
+  top: 200px;
+  left: 100px;
+}
+#app h1 {
+  margin: 30px;
+}
+#app p {
+  margin: 20px;
+}
+
+/*--
+footer
+--*/
+
+footer {
+  background-color: #fa6600;
+  width: 100%;
+  height: 100px;
+}
+footer button {
+  border: none;
+  background-color: black;
+  width: 100px;
+  padding: 7px;
+  font-weight: bolder;
+  font-size: 20px;
+  color: white;
+  border-radius: 3px;
+  position: relative;
+  top: 30px;
+  left: 1200px;
+}
